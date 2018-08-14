@@ -41,7 +41,7 @@ const init = async () => {
     const thisLevel = client.config.permLevels[i];
     client.levelCache[thisLevel.name] = thisLevel.level;
   }
-  client.login(client.config.token);
+  client.login(process.env.BOT_TOKEN);
 };
 
 init();
