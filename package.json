@@ -1,0 +1,29 @@
+{
+  "name": "SpaceXAgent",
+  "version": "2.3.5",
+  "description": ";////",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "author": "REEE",
+  "license": "MIT",
+  "dependencies": {
+    "bufferutil": "^3.0.5",
+    "chalk": "^2.3.0",
+    "discord.js": "^11.3.2",
+    "edit-json-file": "^1.0.8",
+    "enmap": "^2.0.4",
+    "enmap-level": "^2.0.2",
+    "moment": "^2.22.1",
+    "moment-duration-format": "^2.2.0",
+    "moment-timezone": "^0.5.21",
+    "time": "^0.12.0",
+    "uws": "^10.148.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
